@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+
+</head>
+<body>
+    <div class="container"
+    <h1>Calculadora de IMC</h1>
+      
+   <div id="calculator">
+
+        <input type="number" id="weigth" placeholder="Peso (kg)">
+
+             <br>
+             <br>
+             <br>
+
+        <input type="number " id="heigth" placeholder="Altura (cm)">
+        
+             <br>
+             <br>
+             <br>
+
+        <button onclick="calculateIMC()">Calcular IMC</button>
+
+        <div id="result"></div>
+
+          
+    </div>
+
+    <br>
+    <br>
+    <table> 
+        <thead>
+            <tr>
+                 <th> Rango de IMC</th>
+                 <th>Estado</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Menos de 16</td>
+                <td>Delgadez severa</td>
+            </tr>
+
+            <tr>
+                <td>16-16.99</td>
+                <td>Infrapeso : Delgadez moderada</td>    
+            </tr>
+
+            <tr>
+                <td>17-18.49</td> 
+                <td>Delgadez : acetable </td>
+                
+            </tr>
+            <tr>
+                <td>18.5-24.99</td>
+                <td>Peso normal </td>    
+            </tr>
+            <tr>
+                <td>25.00-29.99</td>
+                <td>Sobrepeso </td>    
+            </tr>
+            <tr>
+                <td>30.00-34.99</td>
+                <td>Obeso: Tipo I </td>    
+            </tr>
+            <tr>
+                <td>35.00-40.00</td>
+                <td>Obeso: Tipo II </td>    
+            </tr>
+            <td>Mayor a 40</td>
+            <td>Obeso: Tipo III </td>    
+        </tr>
+
+        </tbody>
+    </table>
+      <br>
+      <br>
+
+      <p>Obesidad significa pesar más de lo que es saludable para una determinada estatura. La obesidad es una enfermedad grave y crónica. Puede llevar a otros problemas de salud, incluyendo diabetes, enfermedad cardíaca y algunos cánceres. 
+      </p>
+
+      <img src= "IMC.png" alt="">
+
+</div>
+
+<script src="script.js"></script>
+
+
+      
+</body>
+</html>
